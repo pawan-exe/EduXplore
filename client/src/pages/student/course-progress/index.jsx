@@ -181,7 +181,12 @@ function StudentViewCourseProgressPage() {
             width="100%"
             height="500px"
             url={currentLecture?.videoUrl}
-            onProgressUpdate={setCurrentLecture}
+            onProgressUpdate={(progress) => {
+              setCurrentLecture((prev) => ({
+                ...prev,
+                progressValue: progress.progressValue,
+              }));
+            }}
             progressData={currentLecture}
           />
           <div className="p-6 bg-[#1c1d1f]">

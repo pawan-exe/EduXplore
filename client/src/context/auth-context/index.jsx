@@ -1,8 +1,8 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import { initialSignInFormData, initialSignUpFormData } from "@/config";
-import { useToast } from "@/hooks/use-toast";
 import { checkAuthService, loginService, registerService } from "@/services";
 import { createContext, useEffect, useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 
 export const AuthContext = createContext(null);
 
