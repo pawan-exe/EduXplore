@@ -32,5 +32,5 @@ Welcome to EduXplore - Empowering Learning, Simplifying Teaching.
   
 
 ## 📷 Screenshot
-![EduXplore Screenshot](https://i.imgur.com/ALCS3nG.jpg)
+![EduXplore Screenshot](https://i.imgur.com/iMofRJR.jpg)
 
