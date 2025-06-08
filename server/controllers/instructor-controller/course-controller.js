@@ -9,7 +9,7 @@ const addNewCourse = async (req, res) => {
     if (saveCourse) {
       res.status(201).json({
         success: true,
-        message: "Course saved successfully",
+        message: "Course saved successfully!",
         data: saveCourse,
       });
     }
@@ -41,7 +41,7 @@ const getCourseDetailsByID = async (req, res) => {
     if (!courseDetails) {
       return res.status(404).json({
         success: false,
-        message: "Course Not Found",
+        message: "Course Not Found!",
       });
     }
 
@@ -73,7 +73,7 @@ const updateCourseByID = async (req, res) => {
 
     res.status(200).json({
       success: true,
-      message: "Course updated successfully",
+      message: "Course updated successfully!",
       data: updatedCourse,
     });
   } catch (e) {
