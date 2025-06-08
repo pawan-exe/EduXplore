@@ -21,7 +21,6 @@ Welcome to EduXplore - Empowering Learning, Simplifying Teaching.
    - Cloudinary Single and Bulk Upload Video Features
    - Dynamic Advanced Form Creation
    - Manage students & Courses
-   - Dashboard
 - **Student View:**
    - Homepage Courses Page - Filter, Sorting
    - Course Details Page
