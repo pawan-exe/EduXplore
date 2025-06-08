@@ -5,7 +5,6 @@ import Footer from "./footer";
 
 function StudentViewCommonLayout() {
   const location = useLocation();
-  // console.log(location);
 
   return (
     <div>

@@ -142,9 +142,6 @@ function StudentViewCourseProgressPage() {
     }
   });
 
-  // console.log(currentLecture);
-  // console.log(studentCurrentCourseProgress);
-
   return (
     <div className="flex flex-col h-screen bg-[#1c1d1f] text-white">
       {showConfetti && <Confetti />}

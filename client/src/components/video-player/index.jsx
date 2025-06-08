@@ -73,7 +73,6 @@ function VideoPlayer({
     setPlayed(1); // Set played to 1 when video ends
   };
 
-  // console.log(played);
   return (
     <div
       ref={playerContainerRef}

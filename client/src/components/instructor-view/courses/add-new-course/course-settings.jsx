@@ -43,8 +43,6 @@ function CourseSettings() {
     }
   }
 
-  // console.log(courseLandingFormData);
-
   function handleReplaceImage() {
     setCourseLandingFormData({ ...courseLandingFormData, image: "" });
   }

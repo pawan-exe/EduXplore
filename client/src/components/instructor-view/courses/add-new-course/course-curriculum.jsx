@@ -65,7 +65,7 @@ function CourseCurriculum() {
           videoFormData,
           setMediaUploadProgressPercentage
         );
-        // console.log(response);
+
         if (response.success) {
           let cpyCourseCurriculumFormData = [...courseCurriculumFormData];
           cpyCourseCurriculumFormData[currentIndex] = {
@@ -178,8 +178,6 @@ function CourseCurriculum() {
       setCourseCurriculumFormData(cpyCourseCurriculumFormData);
     }
   }
-
-  // console.log(courseCurriculumFormData);
 
   return (
     <Card>
